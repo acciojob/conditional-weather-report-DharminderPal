@@ -1,7 +1,7 @@
 
 import React from "react";
 import './../styles/App.css';
-
+import WeatchDisplay from "./WeatherDisplay"
 const App = () => {
 const  [data,setdata] = React.usestate(null)
   React.useEffect(()=>{
